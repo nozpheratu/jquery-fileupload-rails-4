@@ -1,0 +1,3 @@
+$ ->
+  $("#fileupload").fileupload
+    dataType: "script"
