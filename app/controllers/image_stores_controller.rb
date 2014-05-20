@@ -8,18 +8,6 @@ class ImageStoresController < ApplicationController
     @image_store = ImageStore.find(params[:id])
   end
 
-  def update
-    @image_store = ImageStore.find(params[:id])
-  end
-
-  def edit
-    @image_store = ImageStore.find(params[:id])
-  end
-
-  def destroy
-    @image_store = ImageStore.find(params[:id])
-  end
-
   def create
     @image_store = ImageStore.new(image_params)
     @image_store.save
