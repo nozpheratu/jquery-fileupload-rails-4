@@ -5,7 +5,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "Jquery Fileupload Rails4" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Jquery Fileupload Rails4" %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
   </head>
   <body>

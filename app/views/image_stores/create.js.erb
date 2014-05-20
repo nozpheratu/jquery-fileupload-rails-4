@@ -1,0 +1,14 @@
+if($("#image_stores .img-row:last-child").find(".img-col").length < 4)
+{
+	addImage();
+}
+else
+{
+	$("#image_stores .img-row:last-child").after($("<div class='row img-row'></div>"));
+	addImage();
+}
+
+function addImage()
+{
+	$("#image_stores .img-row:last-child").append("<%= j render template: 'image_stores/show', locals: { image_store: @image_store } %>");
+}

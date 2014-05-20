@@ -1,0 +1,4 @@
+<%= simple_form_for ImageStore.new, html: { multipart: true, id: "fileupload"  } do |f| %>
+	<%= f.input :image, input_html: { multiple: true, name: "image_store[image]" } %>
+	<%= f.submit %>
+<% end %>
