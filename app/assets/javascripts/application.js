@@ -16,4 +16,3 @@
 //= require ./lib/jQuery-File-Upload-9.5.7/js/vendor/jquery.ui.widget
 //= require ./lib/jQuery-File-Upload-9.5.7/js/jquery.iframe-transport
 //= require ./lib/jQuery-File-Upload-9.5.7/js/jquery.fileupload
-//= require_tree ./controllers/
