@@ -1,5 +1,5 @@
 $ ->
-  window.debug = $("#fileupload").fileupload
+  $("#fileupload").fileupload
     dataType: "script"
     add: (e, data) ->
       types = /(\.|\/)(gif|jpe?g|png|mov|mpeg|mpeg4|avi)$/i
